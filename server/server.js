@@ -48,7 +48,8 @@ app.use("/api/status", (req,res) => (
 // database 
 await connectDB();
 
-// port 
+if(process.env.NODE_ENV !== "production"){
+  // port 
 const port = process.env.PORT || 5000;
 
 // server 
@@ -56,6 +57,9 @@ server.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
 
+}
+// export server for vercel 
+export default server;
 // Routes 
 app.use("/api/auth", userRouter)
 app.use("/api/messages", messageRouter)
