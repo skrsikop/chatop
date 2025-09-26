@@ -1,6 +1,6 @@
 # 💬 ChatOp - Real-Time Chat Web App
 
-![ChatOp Poster](/demo.png)
+[![Gemini-Generated-Image-sbfqnesbfqnesbfq.png](https://i.postimg.cc/8C0QfmhZ/Gemini-Generated-Image-sbfqnesbfqnesbfq.png)](https://postimg.cc/KKBsdLpT)
 
 ChatOp is a **real-time chat web application** built with the **MERN Stack** and **Socket.IO**, enabling instant messaging with authentication, media uploads, and cloud storage.
 
